@@ -74,10 +74,18 @@ Secure authentication ensures only authorized access.
 
 Password Recovery:
 Users can reset their passwords in case of a forgotten password.
+Main Page - Registration
+New users can create an account by providing their name, email, and password.
+User credentials are securely stored for authentication.
+Upon successful registration, users can log in and access the dashboard.
 <img src="https://github.com/user-attachments/assets/d9c2cc9d-4a26-42cf-a6c1-7bb233924679" width="500"/>
+
+
+Sign-In Page
+Existing users can log in using their email and password.
+If users forget their password, they can reset it using the "Forgot Password" option.
+After logging in, users are redirected to the dashboard to access all features.
 <img src="https://github.com/user-attachments/assets/986ff6e1-6442-496a-a726-28112bf73751" width="500"/>
-
-
 New users can register with their credentials.
 Existing users can log in securely.
 
@@ -110,15 +118,38 @@ Allows users to upload MRI/CT images for tumor detection.
 Uses deep learning models (VGG Network, YOLOv7) to analyze images.
 Displays detection results, highlighting any abnormalities.
 Brain Tumor Analyzer: Enables users to upload MRI/CT images for tumor analysis.
+
+Step 1: Upload MRI Scan
+Users can begin the tumor analysis by uploading their MRI or CT scan images through the Brain Tumor Analyzer.
+The system accepts medical image formats such as JPG, PNG, or DICOM for processing. Once uploaded, the image
+is preprocessed and prepared for deep learning-based analysis.
 <img src="https://github.com/user-attachments/assets/11f1c9c0-39bd-450e-a7e3-9cdc572500ec" width="500"/>
+
+Step 2: Click on "Analyze" to Get Results
+After uploading the MRI, users need to click the "Analyze" button. The system then processes the image using
+the VGG Network and YOLOv7 models, enhanced with attention mechanisms and feature pyramids. The deep learning
+model detects abnormalities and segments the tumor region if present.
 <img src="https://github.com/user-attachments/assets/259842cb-2b8e-498a-82c2-18d7a33f83c5" width="500"/>
+
+Step 3: View Detection Results
+The analyzed image is displayed with detection highlights, showing whether a tumor is present or not. If 
+detected, the system provides information about tumor type, size, and possible stages. Users can then proceed 
+with further analysis or consult the chatbot for treatment options and recommendations.
 <img src="https://github.com/user-attachments/assets/860d0825-fe9f-4018-bb42-f554c39e05b8" width="500"/>
 
 Provides real-time support using NLP.
 Answers queries about tumor types, stages, and treatment options.
 Offers personalized recommendations based on user input.
 Chatbot: Provides real-time support for queries related to tumor types, treatment options, and recommendations.
+
+Find Nearby Hospitals
+Users can enter their location name or allow location access.
+The chatbot fetches a list of nearby hospitals specializing in brain tumor treatment.
 <img src="https://github.com/user-attachments/assets/c5978f40-c129-43a9-afe3-84e011f2d72f" width="500"/>
+
+Hospital Address & Details
+Once a hospital is selected, the chatbot provides its full address, contact details, and website (if available).
+Users can also get directions or additional details for consultation and treatment options.
 <img src="https://github.com/user-attachments/assets/c1e32eb5-a028-4598-a3d5-3932927da426" width="500"/>
 
 Component Interaction
