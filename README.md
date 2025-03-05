@@ -74,8 +74,9 @@ Secure authentication ensures only authorized access.
 
 Password Recovery:
 Users can reset their passwords in case of a forgotten password.
-![Screenshot (261)](https://github.com/user-attachments/assets/d9c2cc9d-4a26-42cf-a6c1-7bb233924679)
-![Screenshot (262)](https://github.com/user-attachments/assets/986ff6e1-6442-496a-a726-28112bf73751)
+<img src="https://github.com/user-attachments/assets/d9c2cc9d-4a26-42cf-a6c1-7bb233924679" width="500"/>
+<img src="https://github.com/user-attachments/assets/986ff6e1-6442-496a-a726-28112bf73751" width="500"/>
+
 
 New users can register with their credentials.
 Existing users can log in securely.
