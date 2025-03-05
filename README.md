@@ -62,6 +62,18 @@ Web App Structure
 
 The Streamlit application consists of the following pages:
 1. Registration & Login Page:
+   The Registration & Login Page is the entry point of the Streamlit web application, ensuring secure access to the system.
+Features:
+User Registration:
+New users can create an account by providing essential details such as name, email, and password.
+User credentials are securely stored in a database for authentication.
+
+User Login:
+Existing users can log in using their registered email and password.
+Secure authentication ensures only authorized access.
+
+Password Recovery:
+Users can reset their passwords in case of a forgotten password.
 ![Screenshot (261)](https://github.com/user-attachments/assets/d9c2cc9d-4a26-42cf-a6c1-7bb233924679)
 ![Screenshot (262)](https://github.com/user-attachments/assets/986ff6e1-6442-496a-a726-28112bf73751)
 
@@ -69,22 +81,44 @@ New users can register with their credentials.
 Existing users can log in securely.
 
 2. Dashboard:
-![Screenshot (263)](https://github.com/user-attachments/assets/883453a9-0f3f-415c-9146-21b157d8ec83)
+ The Dashboard is the central hub of the Streamlit web application, providing users with access to various functionalities
+ for brain tumor analysis and real-time assistance.
+Features:
+User-Friendly Interface: Displays key components in an organized layout for seamless navigation.
+Real-Time Data Processing: Allows users to analyze symptoms, upload medical images, and receive AI-based insights.
+Interactive Chatbot: Provides quick responses to queries related to tumor detection, treatment options, and personalized recommendations.
+How It Works:
+Upon logging in, users land on the Dashboard.
+They can navigate between the three components.
+Clicking on a component will open its dedicated interface for analysis or support.
+The system processes the user’s input (symptoms, images, or queries) and provides appropriate responses.
+<img src="https://github.com/user-attachments/assets/883453a9-0f3f-415c-9146-21b157d8ec83" width="500"/>
 After logging in, users are directed to a dashboard containing three main components:
+Once users successfully log in, they are redirected to the Dashboard, which serves as the central interface
+for interacting with the system. The dashboard is designed for seamless navigation and contains three primary components:
 
+Symptom Analyzer
+Helps users assess potential brain tumor symptoms.
+Uses a predefined symptom-checking algorithm.
+Provides insights based on user inputs.
 Symptom Analyzer: Assists in preliminary symptom assessment.
-![Screenshot (264)](https://github.com/user-attachments/assets/cfec5f5b-e3bb-43fd-9a45-2c03ae39af3d)
+<img src="https://github.com/user-attachments/assets/cfec5f5b-e3bb-43fd-9a45-2c03ae39af3d" width="500"/>
 
-
+Brain Tumor Analyzer
+Allows users to upload MRI/CT images for tumor detection.
+Uses deep learning models (VGG Network, YOLOv7) to analyze images.
+Displays detection results, highlighting any abnormalities.
 Brain Tumor Analyzer: Enables users to upload MRI/CT images for tumor analysis.
 <img src="https://github.com/user-attachments/assets/11f1c9c0-39bd-450e-a7e3-9cdc572500ec" width="500"/>
+<img src="https://github.com/user-attachments/assets/259842cb-2b8e-498a-82c2-18d7a33f83c5" width="500"/>
+<img src="https://github.com/user-attachments/assets/860d0825-fe9f-4018-bb42-f554c39e05b8" width="500"/>
 
-![Screenshot (266)](https://github.com/user-attachments/assets/259842cb-2b8e-498a-82c2-18d7a33f83c5)
-![Screenshot (265)](https://github.com/user-attachments/assets/860d0825-fe9f-4018-bb42-f554c39e05b8)
-
+Provides real-time support using NLP.
+Answers queries about tumor types, stages, and treatment options.
+Offers personalized recommendations based on user input.
 Chatbot: Provides real-time support for queries related to tumor types, treatment options, and recommendations.
-![Screenshot (269)](https://github.com/user-attachments/assets/c5978f40-c129-43a9-afe3-84e011f2d72f)
-![Screenshot (268)](https://github.com/user-attachments/assets/c1e32eb5-a028-4598-a3d5-3932927da426)
+<img src="https://github.com/user-attachments/assets/c5978f40-c129-43a9-afe3-84e011f2d72f" width="500"/>
+<img src="https://github.com/user-attachments/assets/c1e32eb5-a028-4598-a3d5-3932927da426" width="500"/>
 
 Component Interaction
 Clicking on a component (e.g., Brain Tumor Analyzer) opens the corresponding module.
