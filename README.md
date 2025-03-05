@@ -77,7 +77,8 @@ Symptom Analyzer: Assists in preliminary symptom assessment.
 
 
 Brain Tumor Analyzer: Enables users to upload MRI/CT images for tumor analysis.
-![Screenshot (267)](https://github.com/user-attachments/assets/11f1c9c0-39bd-450e-a7e3-9cdc572500ec)
+<img src="https://github.com/user-attachments/assets/11f1c9c0-39bd-450e-a7e3-9cdc572500ec" width="500"/>
+
 ![Screenshot (266)](https://github.com/user-attachments/assets/259842cb-2b8e-498a-82c2-18d7a33f83c5)
 ![Screenshot (265)](https://github.com/user-attachments/assets/860d0825-fe9f-4018-bb42-f554c39e05b8)
 
